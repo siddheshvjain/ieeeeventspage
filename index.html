@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="grid1" style="background-color: red;">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda a eveniet ratione, quod placeat quos dolorem architecto, aspernatur labore tenetur provident rerum voluptas possimus mollitia doloremque vel voluptatum veritatis illum molestias quas, nesciunt ut. Tempora veniam debitis tempore hic inventore laboriosam fugit autem, quasi doloribus voluptatem. Possimus consequuntur, sunt necessitatibus molestiae magnam a dicta quidem aliquam eligendi architecto mollitia facilis provident laudantium tenetur recusandae magni eos amet beatae veniam aut nulla enim! Minima, adipisci tenetur asperiores cumque voluptatem quisquam tempore architecto veritatis, nam fugit quia atque explicabo sapiente, commodi quaerat! Numquam maiores blanditiis pariatur consectetur autem dolore delectus eum expedita!
+
+                </p>
+            </div> 
+            <div class="grid2" style="background-color:yellow;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ex atque adipisci a commodi dolore delectus qui ducimus quia? Eum in, quae quis perspiciatis quo, rerum minima dolor non illum mollitia possimus commodi, temporibus consectetur. Soluta dolorem ex autem repellendus provident, modi molestias maiores quia iure voluptatem consectetur, minus suscipit ea distinctio perferendis, ab praesentium esse? Ullam quis, iste quisquam repellat veniam cum mollitia facilis dicta perferendis soluta. Voluptatem, esse velit non veniam corrupti cupiditate necessitatibus labore voluptates. Expedita pariatur provident eligendi suscipit inventore distinctio maiores deleniti fuga. Nulla iure aliquid optio dolores beatae dolor quo alias labore magnam blanditiis minima modi iusto, cupiditate animi incidunt quia totam ad inventore pariatur accusantium repudiandae non architecto nemo odio? Nulla, rerum odio?
+                    
+                </p>
+            </div>
+            <div class="grid3" style="background-color: chocolate;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sint voluptates, officiis natus nesciunt enim saepe. Deserunt obcaecati dicta est nobis recusandae neque mollitia minima aliquam dignissimos. Iure quaerat nulla numquam a officiis alias corporis ipsa odit dolores, ipsam delectus sit. Et ullam possimus harum illum a iure qui assumenda enim placeat praesentium consequatur ipsum adipisci numquam nesciunt molestiae commodi, asperiores aspernatur maiores, itaque autem? Natus recusandae, sequi repellat provident sunt sit totam magni iure illo. Dolor quasi porro eius.
+            </div>           
+        </div>
+        <style>
+            main{
+                display: grid;
+            }
+            .wrapper{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                height: 100vh;
+            }
+            .grid3{
+                /*grid-column-start: 1;
+                grid-column-end: 3;
+                /*or use grid-column:1/3*/
+            }
+            .grid2{
+                grid-row-start:1;
+                grid-row-end:3;
+            }
+            .grid1{
+                grid-column:1/2;
+                grid-row:1/2;
+            }
+        </style>
+    </body>
+</html>
