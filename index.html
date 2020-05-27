@@ -26,17 +26,17 @@
         </div>
         <style>
             main{
-                display: grid;
+                display:grid;
             }
             .wrapper{
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr 1fr 1fr;
-                height: 100vh;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
                 grid-template-areas:"box1 box2"
-                "box3 box2";
+                "box1 box3";
                 /* here 1st rows 2columns or whatever specified has box1 and box2 similarly 2nd row has box3 and box2 in its columns
-                similarly if box2 in 2nd row is replaced by a dot '.' then its an empty grid*/
+                similarly if box2 in 2nd row is replaced by a dot '.' then its an empty grid
+                align self is vertically justify self is horizontally*/
         
             }
             *{
@@ -44,6 +44,8 @@
             }
             .grid1{
                 grid-area:box1;
+                justify-items: center;
+                align-self: center;
             }
             .grid2{
                 grid-area:box2;
