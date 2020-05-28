@@ -5,36 +5,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <div class="gallery">
-            <img src="https://picsum.photos/200/300" alt="">
-            <img src="https://picsum.photos/200/300" alt="">
-            <img src="https://picsum.photos/200/300" alt="">
-            <img src="https://picsum.photos/200/300" alt="">
-            <img src="https://picsum.photos/200/300" alt="">
+    <body style="background-image: linear-gradient(to left,maroon,black);">
+        <h1 style="padding-bottom:4%;color: goldenrod;text-align: center;padding-top: 2%;">KALPANA</h1>
+        <div class="kalpana" >
+            <div class="card" id="description" style="margin-left:2%">
+                <div class="card-header" style="background-color: lightblue;">
+                    <h2>Description</h2>
+                </div>
+                <div class="card-body" style="background-color: seashell;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae exercitationem sunt, rem id, odio ea dolore mollitia possimus velit fugit optio, architecto sequi deserunt aliquid praesentium minus dicta nesciunt.</p>
+
+                </div>
+            </div>
+            <div class="card" id="time" style="margin-left: 2%;">
+                <div class="card-header" style="background-color: lightblue;">
+                    <h2>Time And Venue</h2>
+                </div>
+                <div class="card-body" style="background-color:seashell">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae exercitationem sunt, rem id, odio ea dolore mollitia possimus velit fugit optio, architecto sequi deserunt aliquid praesentium minus dicta nesciunt.</p>
+
+                </div>
+            </div>
+            <div class="card" id="prizes" style="margin-left: 2%;">
+                <div class="card-header" style="background-color: lightblue;">
+                    <h2>Prizes</h2>
+                </div>
+                <div class="card-body" style="background-color: seashell;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae exercitationem sunt, rem id, odio ea dolore mollitia possimus velit fugit optio, architecto sequi deserunt aliquid praesentium minus dicta nesciunt.</p>
+
+                </div>
+            </div>
+            <img class="kalp" src="chicago.jpg"/>
+            <button type="button" class="btn btn-primary btn-block" id="butkalp">Register</button> 
            
         </div>
-        <style>
-            *{
-                margin: 0;
-                padding:0;
-                box-sizing: border-box;
-            }
-            .gallery{
-                display: grid;
-                /*grid-template-columns: repeat(3,300px);
-                in the above code we want three columns of 300px which does not make it responsive instead we want
-                css figure out the number of columns to be responsive, to prevent excess columns use auto-fit instead of auto-fill*/
-                grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-                /*Min max is used to set the minimum value and maximum value which is auto in css and better responsive*/
-                grid-row-gap:40px;
-                grid-column-gap:30px;
-            }
-            .gallery img{
-                width: 100%;
-            }
-        </style>
-    
     </body>
 </html>
