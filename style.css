@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+.kalpana{
+    display:grid;
+    /*grid-template-columns: repeat(auto-fit,minmax(300px,1fr));*/
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    height:100vh;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+    justify-content: space-around;
+}
+.kalp{
+    width:100%;
+    height: 100%;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:4;
+    justify-content: space-around;
+}
+#butkalp{
+    margin-left:50%;
+}
+.card:hover{
+    transform:scale(1.03);
+}
+.card{
+    transition: transform .3s;
+
+}
+.kalp:hover{
+    transform:scale(1.03);
+
+}
+.kalp{
+    transition: transform .4s;
+}
