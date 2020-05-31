@@ -14,7 +14,7 @@ html{
 .kalp{
     margin-left: 3%;
     width:90%;
-    height: 90%;
+    height: 80%;
     grid-column-start:2;
     grid-column-end:3;
     grid-row-start:1;
@@ -22,7 +22,9 @@ html{
     justify-content: space-around;
 }
 #butkalp{
-    margin-left:50%;
+    position: absolute;
+    margin-left:71%;
+    margin-top: 42%;
 }
 .card:hover{
     transform:scale(1.03);
@@ -30,7 +32,6 @@ html{
 .card{
     transition: transform .3s;
 }
-
 .card-body{
     background-color: seashell;
 }
